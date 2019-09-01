@@ -1,16 +1,13 @@
 /*
 Template Name: HTML Education Template
 Author: yaminncco
-
 Colors:
 	Body 		: #798696
 	Headers 	: #374050
 --	Primary 	: #FF6700
 	New Primary	: #0379ff
 	Grey 		: #EBEBEB
-
 Fonts: Lato & Montserrat
-
 Table OF Contents
 ------------------------------------
 1 > General
@@ -367,7 +364,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .navbar-toggle > span , .navbar-toggle > span:before , .navbar-toggle > span:after {
 	height: 2px;
 	width: 25px;
-	background-color:#374050;
+	/*background-color:#374050;*/
+	background-color:#fff;
 }
 
 .navbar-toggle > span:before {
@@ -385,13 +383,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 #header.nav-collapse .navbar-toggle > span:before {
     -webkit-transform: translateY(10px) rotate(45deg);
         -ms-transform: translateY(10px) rotate(45deg);
-            transform: translateY(10px) rotate(45deg);
+			transform: translateY(10px) rotate(45deg);
+	background-color:#374050;
 }
 
 #header.nav-collapse .navbar-toggle > span:after {
     -webkit-transform: translateY(-10px) rotate(-45deg);
         -ms-transform: translateY(-10px) rotate(-45deg);
-            transform: translateY(-10px) rotate(-45deg);
+			transform: translateY(-10px) rotate(-45deg);
+	background-color:#374050;
 }
 
 /*------------------------------------*\
